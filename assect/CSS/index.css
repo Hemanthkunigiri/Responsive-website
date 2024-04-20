@@ -104,6 +104,26 @@ display: flex;
   object-fit: cover;
 }
 }
+
+@media screen and (min-width:600px) {
+ .container{
+  height: 95%;
+  width: auto;
+  margin-top: 0%
+ }
+ .image{
+  height: auto;
+  width: 50% ;
+ }
+ #data{
+  margin: 0%;
+ }
+ .text p{
+  margin: auto;
+ }
+}
+
+
 .header{
   height: 100%;
   width: 100%;
@@ -124,25 +144,25 @@ display: flex;
   margin-left: 5vh;
 }
 .text-box{
-  margin-top: 10%;
-  margin-left: 5vh;
-  height: 26%;
-  width: 25%;
-  background-color: rgb(244, 84, 108)
+    margin-top: 10%;
+    margin-left: 20vh;
+    height: 26%;
+    width: 25%;
+    background-color: rgb(244, 84, 108)
 }
 #box{
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5% 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 10%;
 }
 #box h1{
-  padding-top: 8%;
-  letter-spacing: 5px;
-  font-size: xx-large;
+    padding-top: 8%;
+    letter-spacing: 5px;
+    font-size: xx-large;
 
 }
 #box p{
-  padding-top: 8%;
+    padding-top: 8%;
 }
 @media screen and (max-width:700px)
 {
@@ -161,6 +181,27 @@ display: flex;
       height: 75vh;
       width: 100%;
       margin-left: auto;
+      object-fit: cover;
+  }
+}
+
+@media screen and (min-width:800px)
+{
+  .header{
+    margin-top:10%;
+    
+  }
+  .first-image img{
+      width: 40vh;
+      height:40%;
+      padding-bottom: 2vh;
+      padding-left: 2%;
+      object-fit: cover;
+  }
+  .second-image img{
+      height: 77.8vh;
+      width: 100%;
+      margin-left: 15%;
       object-fit: cover;
   }
 }
@@ -187,4 +228,18 @@ display: flex;
       padding-top: 5%;
   }
 
+}
+
+
+@media screen and (min-width:800px)
+{
+  .text-box{
+    height: 45%;
+    width: 35%;
+    margin-top: 12vh;
+  }
+  #box h1{
+    letter-spacing: 0;
+    font-size: xx-large;
+  }
 }
